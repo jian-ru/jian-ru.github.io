@@ -31,7 +31,7 @@
             
             <h3>About Me</h3>
             <p>
-            I am a 1st-year Master student majoring Computer Graphics and Game Technology (CGGT) in
+            I am a 2nd-year Master student majoring Computer Graphics and Game Technology (CGGT) in
             Computer and Information Science Department of University of Pennsylvania.<br>
             <br>
             I obtained by Bachelor's degree at Sun Yat-Sen University in 2014. My major was Software
@@ -39,154 +39,115 @@
             </p>
             <hr>
             
-            <h3>What I am Doing Now</h3>
+            <h3>Experience</h3>
             
-            <p>
-            <b>Fast Cat: Real-Time Rendering of Catmull-Clark Subdivision Surfaces (In Progress)</b><br><br>
-            This project implements the paper "Feature Adaptive GPU Rendering of Catmull-Clark
-            Subdivision Surfaces". I have finished the implementation of the feature adaptive
-            subdivision and rendering of all types of non-sharp patches.<br>
-            <a href="https://github.com/jian-ru/fastcat">Github Repository</a><br>
-            Results:<br>
-            <a href="./nosharp_cube.png"><img src="./nosharp_cube.png" width="200" height="150" alt="nosharp_cube.png"></a>
-            <a href="./nosharp_bigguy.png"><img src="./nosharp_bigguy.png" width="200" height="150" alt="nosharp_bigguy.png"></a>
-            <a href="./nosharp_frog1.png"><img src="./nosharp_frog1.png" width="200" height="150" alt="nosharp_frog1.png"></a>
-            <a href="./nosharp_frog2.png"><img src="./nosharp_frog2.png" width="200" height="150" alt="nosharp_frog1.png"></a>
-            <br><br>
-            </p>
-            
-            <p>
-            <b>Unreal Multiplayer Game: Jian's Temple</b><br><br>
-            This is a group project and the game is done. I am responsible
-            for the implementation of character movements, projectiles, destructibles, and some
-            of the in-game logic and mechanism. I also participated in debugging networking issues.<br>
-            <a href="https://github.com/sachabest/jians-temple">Github Repository</a><br><br>
-            
-            <iframe width="427" height="240" src="https://www.youtube.com/embed/QM8zamuRmzw" frameborder="0" allowfullscreen></iframe>
-            </p>
-            
-            <p>
-            <b>FLIP Fluid Solver</b><br><br>
-            Implemented a simple FLIP solver. I have implemented Conjugate Gradient Method on GPU using
-            OpenGL compute shader. It is about 10 times faster than Eigen's implementation. Used TBB to
-            accelerate simulation. Used OpenVDB to conver
-            particles into SDF for meshing. Houdini is used to postprocess the output SDF data.<br>
-            <a href="https://github.com/jian-ru/CIS563-FluidSolver">Github Repository</a><br><br>
-            
-            <iframe src="https://player.vimeo.com/video/162315092" width="427" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </p>
-            
-            <p>
-            <b>Houdini Fluid Simulation</b><br><br>
-            <iframe src="https://player.vimeo.com/video/155468881" width="333" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </p><br>
-            
-            <p>
-            <b>Asteroids RTS (Unity)</b><br><br>
-            Added some Behavioral Animation and Feedback control techniques to the game.<br>
-            <iframe src="https://player.vimeo.com/video/155480573" width="500" height="284" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </p>
-            
-            <p>
-            <b>LSystem Maya Plugin</b><br><br>
-            <a href="./lsys01.png"><img src="./lsys01.png" width="288" height="168" alt="lsys01"></a>
-            <a href="./lsys02.png"><img src="./lsys02.png" width="288" height="168" alt="lsys02"></a>
-            <a href="./lsys03.png"><img src="./lsys03.png" width="288" height="168" alt="lsys03"></a>
-            <a href="./lsys04.png"><img src="./lsys04.png" width="288" height="168" alt="lsys04"></a>
-            <a href="./lsys05.png"><img src="./lsys05.png" width="288" height="168" alt="lsys05"></a>
-            <a href="./lsys06.png"><img src="./lsys06.png" width="288" height="168" alt="lsys06"></a>
-            </p>
+			<ul>
+			  <li><b>Graphics Engineer Intern, SIEA (Playstation R&D), San Mateo,
+			  CA (Summer 2016)</b></li><br>
+              <ul>
+			    <li>Implemented the paper <i>Multi-Resolution Meshes for Feature-Aware Hardware 
+			    Tessellation</i> [Lambert, T., Benard, P., Guennebaud, G., Eurographics 2016] to solve
+			    displacement mapping artifacts</li>
+			    <li>Implemented a tool that converts FBX files into an internal format (adopted by 
+			    Playstation SDK)</li>
+			    <li>Implemented a subdivision surface preview tool using internal graphics APIs</li>
+			  </ul>
+			</ul>
+			
+			<ul>
+			  <li><b>CIS 462/562 - Computer Animation TA (Fall 2016)</b></li><br>
+			</ul>
             <hr>
             
             <h3>Projects (Selected)</h3>
-            <p>
-            <b>Physically Based Rendering - 2015</b><br>
-            <br>
-            In this project, I implemented a multi-threaded physically based renderer in C++.
-            I started with a provided basic UI framework that showed a window for rendering
-            result output. My main contribution was the implementation of various physically
-            based rendering techniques. The main features of the render includes: Photon
-            Mapping, Monte Carlo Path Tracing, BVH acceleration tree with surface area
-            heuristic, BSDF materials (e.g. glass), and Depth of Field.<br>
-            <br>
-            Results:
-            </p>
-            <table>
-                <tr>
-                    <td>
-                        <a href="./144_30min.bmp">
-                        <img src="./144_30min.bmp" width="200" height="200" alt="pm1">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./144.bmp">
-                            <img src="./144.bmp" width="200" height="200" alt="pm2">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./64_cubelight.bmp">
-                            <img src="./64_cubelight.bmp" width="200" height="200" alt="pm3">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./64_6min.bmp">
-                            <img src="./64_6min.bmp" width="200" height="200" alt="bvh">
-                        </a>
-                    </td>
-                </tr>
-            </table>
-            <table style="width100%">
-                <tr>
-                    <td>
-                        <a href="./dof_far.bmp">
-                            <img src="./dof_far.bmp" width="200" height="200" alt="dof">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./mc_1.bmp">
-                            <img src="./mc_1.bmp" width="300" height="200" alt="mc1">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="./mc_2.bmp">
-                            <img src="./mc_2.bmp" width="300" height="200" alt="mc2">
-                        </a>
-                    </td>
-                </tr>
-            </table><br><br>
-            
-            <p>
-            <b>Loop Subdivision - 2013</b><br>
-            <br>
-            In this project, I implemented Loop Subdivision on CPU. The UI elements and handling of user
-            inputs were done in Win32 API. OpenGL was used to draw the resulting mesh into the viewport.
-            <br><br>
-            Source code and executable are available on my
-            <a href="https://github.com/Rajesh-Ru/3d-model-viewer">GitHub</a>.
-            </p><br>
-            
-            <p>
-            <b>Image Stitching - 2013</b><br>
-            <br>
-            In this project, I implemented an image stitching algorithm proposed by L. Zelink-Manor
-            and P. Perona in 2007. The implementation was powered by OpenCV - a computer vision
-            library.
-            <br><br>
-            Checkout my <a href="./10389231_Project_1.pdf">project report</a> for some results.<br>
-            Source code is available on <a href="https://github.com/Rajesh-Ru/3d-model-viewer">GitHub</a>.
-            </p><br>
-            
-            <p>
-            <b>Action Recognition with Kinect - 2013</b><br>
-            <br>
-            In this project, I made a experimental game together with my teammates. My contribution in this
-            project was the implementation of the action recognition system. I used OpenNI to interface with
-            Kinect.
-            <br><br>
-            Results:<br>
-            <embed src="http://static.youku.com/v/swf/qplayer.swf?winType=adshow&amp;VideoIDS=XNjAzNDAxMjY0&amp;isAutoPlay=false&amp;isShowRelatedVideo=false" wmode="transparent" width="427" align="center" border="0" height="240">
+			
+			<ul>
+			<p>
+              <li><b>Fast Cat: Real-Time Rendering of Catmull-Clark Subdivision Surfaces - 2016</b></li><br>
+              <ul>
+			    <li>
+				Implemented the papers <i>Feature Adaptive GPU Rendering of Catmull-Clark
+                Subdivision Surfaces</i> [Nießner, M., Loop, C., Meyer, M., DeRose, T., TOG 2012] and 
+			    <i>Efficient Evaluation of Semi-Smooth Creases in Catmull-Clark Subdivision Surfaces</i> 
+			    [Nießner, M., Loop, C., Greiner, G., Eurographics 2012]. 
+			    It was implemented as a Maya plugin using OpenGL and Maya SDK. The plugin is very 
+			    versatile as it can handle triangle/quad mesh, render both regular and irregular patches, 
+			    deal with sharp or semi-sharp edge creases as well as non-closed meshes, and provide basic 
+			    texturing and displacement mapping support. I teamed up with Alexender in this project 
+			    and I was responsible for most of the preprocessing and shader programming.
+				</li><br>
                 
-            <br><hr>
+				<li><a href="https://github.com/AlexMiller12/FastCatVS2013">Github Repository</a></li><br>
+              
+			    <li>Results:</li>
+			    - GIFs were captured at 8 FPS but application was real-time<br>
+			    - You can click on an image to enlarge it<br>
+                <a href="./fc_demo1.gif"><img src="./fc_demo1.gif" width="427" height="240" alt="fc_demo1.gif"></a>
+                <a href="./fc_demo2.gif"><img src="./fc_demo2.gif" width="427" height="240" alt="fc_demo2.gif"></a>
+                <a href="./fc_demo4.gif"><img src="./fc_demo4.gif" width="427" height="240" alt="fc_demo4.gif"></a>
+                <a href="./fc_demo5.gif"><img src="./fc_demo5.gif" width="427" height="240" alt="fc_demo5.gif"></a>
+			  </ul>
+            </p>
+			
+			<p>
+              <li><b>GPU FLIP Fluid Solver - 2016</b></li><br>
+			  <ul>
+                <li>Implemented a GPU FLIP solver. OpenGL Compute was used to implement all simulation
+			    functionalities including a Conjugate Gradient linear system solver. Simulation
+			    initialization (i.e. seeding particles) was done in parallel on CPU using Tbb.
+			    OpenVDB was used to generate SDF (Signed Distance Field) data which was latter on
+			    processed by Houdini to generate mesh/surface data.
+			    </li><br>
+				
+                <li><a href="https://github.com/jian-ru/CIS563-FluidSolver">Github Repository</a></li><br>
+                
+				<li>Results:</li>
+				<iframe src="https://player.vimeo.com/video/182320594" width="427" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/162315092" width="427" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			  </ul>
+			</p>
+			
+            <p>
+              <li><b>Path Tracer (Physically Based Rendering) - 2015</b></li><br>
+			  <ul>
+                <li>Implemented a multi-threaded path tracer in C++. The main features are 
+				Photon Mapping, Monte Carlo Path Tracing, MIS, BVH with surface area heuristic, 
+				Cook-Torrance BRDF, and Depth of Field.</li><br>
+				
+                <li>Results:</li>
+                <a href="./144_30min.bmp"><img src="./144_30min.bmp" width="200" height="200" alt="pm1"></a>
+				<a href="./144.bmp"><img src="./144.bmp" width="200" height="200" alt="pm2"></a>
+				<a href="./64_cubelight.bmp"><img src="./64_cubelight.bmp" width="200" height="200" alt="pm3"></a>
+				<a href="./64_6min.bmp"><img src="./64_6min.bmp" width="200" height="200" alt="bvh"></a>
+				<a href="./dof_far.bmp"><img src="./dof_far.bmp" width="200" height="200" alt="dof"></a>
+				<a href="./mc_1.bmp"><img src="./mc_1.bmp" width="300" height="200" alt="mc1"></a>
+				<a href="./mc_2.bmp"><img src="./mc_2.bmp" width="300" height="200" alt="mc2"></a>
+			  </ul>
+			</p>
+            
+            <p>
+              <li><b>Image Stitching - 2013</b></li><br>
+              <ul>
+			    <li>In this project, I implemented an image stitching algorithm proposed by L. Zelink-Manor
+                and P. Perona in 2007. The implementation was powered by OpenCV - a computer vision
+                library.</li>
+			    <li>Checkout my <a href="./10389231_Project_1.pdf">project report</a> for some results.</li>
+                <li>Source code is available on <a href="https://github.com/Rajesh-Ru/3d-model-viewer">GitHub</a>.</li>
+              </ul>
+			</p>
+            
+            <p>
+              <li><b>Action Recognition with Kinect - 2013</b></li><br>
+              <ul>
+                <li>In this project, I made a experimental game together with my teammates. My contribution in this
+                project was the implementation of the action recognition system. I used OpenNI to interface with
+                Kinect.</li><br>
+				
+                <li>Results:</li>
+                <embed src="http://static.youku.com/v/swf/qplayer.swf?winType=adshow&amp;VideoIDS=XNjAzNDAxMjY0&amp;isAutoPlay=false&amp;isShowRelatedVideo=false" wmode="transparent" width="427" align="center" border="0" height="240">
+              </ul>
+			</ul>
+			<hr>
             
             <h3>Maya Art Work - 2015</h3>
             <a href="./final1.jpg">
@@ -206,7 +167,7 @@
             <br><hr>
             <p>
             <br>
-            Last Update: March 2016<br>
+            Last Update: September 2016<br>
             </p>
         </div>
     </body>
