@@ -63,6 +63,33 @@
 			
 			<ul>
 			<p>
+			  <li><b>Laugh Engine: A Real-Time PBR Renderer with Vulkan - 2016</b></li><br>
+			  <ul>
+			    <li>
+				In this project, I implemented a real-time PBR renderer using Vulkan by following the 
+				<a href="http://blog.selfshadow.com/publications/s2013-shading-course/karis/s2013_pbs_epic_notes_v2.pdf">2013 course note</a> 
+				by Unreal Engine 4, Epic Games. Currently, the program can load in a mipmapped radiance environment map and 3D models to
+				render a scene in real-time (> 60 FPS). It will bake the BRDF look-up table and generate irradiance maps the first time
+				a new BRDF or HDR probe is used but since precalculation is done on GPU, it is also very fast. For more information, I
+				invite to take a look at my <a href="https://github.com/jian-ru/laugh_engine">Github repo</a>.
+				</li><br>
+				<li>
+				I'd like to show my credits to <a href="http://artisaverb.info/Cerberus.html">Andrew Maximov</a> for making his PBR asset,
+				Cerberus, publicly available and <a href="https://github.com/derkreature/IBLBaker">IBLBakder</a> where I learned a lot of
+				implementation details that were not taught in the course note. I also want to thank Chris Ho, my colleague during my internship
+				in Sony Playstation R&D this summer, for inspiring me. Without him, I won't even know there is a thing called real-time PBR.
+				</li><br>
+				<li>Results:</li>
+				- Best viewed in fullscreen<br>
+				- Check out my <a href="https://github.com/jian-ru/laugh_engine">project page</a> for more results
+				<video id="ms3_demo.mp4" width="640" height="360" controls>
+					<source src="./ms3_demo.mp4" />
+					Your browser does not support HTML5.
+				</video>
+			  </ul>
+			</p>
+			
+			<p>
               <li><b>Fast Cat: Real-Time Rendering of Catmull-Clark Subdivision Surfaces - 2016</b></li><br>
               <ul>
 			    <li>
